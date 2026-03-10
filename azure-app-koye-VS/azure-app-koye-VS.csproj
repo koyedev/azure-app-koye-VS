@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_koye_VS</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/a3eb1c14-e695-4570-a545-680ab8fabd63/resourceGroups/az-group-rg4/providers/microsoft.insights/components/azure-app-koye-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>34e9cc4d-014d-4b1c-b5be-23a777eb15d4</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>

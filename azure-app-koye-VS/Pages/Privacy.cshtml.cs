@@ -14,6 +14,7 @@ namespace azure_app_koye_VS.Pages
 
         public void OnGet()
         {
+            
         }
     }
 
